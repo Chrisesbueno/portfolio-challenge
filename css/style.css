@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #4F4F4F;
+    background-color: #F2F2F2;
+    margin: 2rem;
+}
+.container {
+    width: 350px;
+}
+.userContainer, .infoSkills, .infoHobbies, .tagsContainer, .projectCard, .infoArticle, .infoExperiences {
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+    margin-bottom: 2rem;
+}
+/* USER CONTAINER -START- */
+.userContainer {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+}
+.userContainer img {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    width: 250px;
+}
+.left h3 {
+    font-weight: 600;
+    font-size: 24px;
+}
+.left p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #828282;
+}
+.right p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.right p i {
+    margin-right: 7px;
+}
+.right {
+    margin: 1.7rem 0;
+}
+.user-infoDown p {
+    margin-bottom: 1rem;
+    color: #828282;
+    font-size: 16px;
+    line-height: 22px;
+    width: 310px;
+}
+/* USER CONTAINER -END- */
+/* SKILLS CONTAINER -START- */
+.skillsTitle {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.bars {
+    display: flex;
+}
+.bar {
+    margin-top: 4px;
+}
+.bars p {
+    font-size: 14px;
+    margin-bottom: 1rem;
+    width: 30%;
+}
+.bars div {
+    /* position: relative; */
+    /* margin-top: 3px; */
+    width: 200px;
+    height: 9.6px;
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+.bars .blue {
+    /* position: absolute; */
+    width: 150px;
+    background: #2F80ED;
+}
+.up, .medium {
+    width: 90% !important;
+}
+.skillsText {
+    font-size: 14px;
+}
+.skillsText a {
+    text-decoration: none;
+    color: #2F80ED;
+}
+/* SKILLS CONTAINER -END- */
+/* HOBBIES CONTAINER -START- */
+.hobbieTitle {
+    font-weight: 500;
+}
+.hobbieCard {
+    margin-top: 3rem;
+}
+.hobbieCard h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.hobbieCard p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #828282;
+}
+.hobbieCard img {
+    width: 100%;
+    height: 139px;
+    border-radius: 15px;
+}
+/* HOBBIES CONTAINER -END- */
+/* ARTICLE CONTAINER -START- */
+.articleHead h2 {
+    width: 170px;
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+}
+.articleHead img {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    width: 250px;
+    border-radius: 15px;
+}
+.infoArticle p {
+    font-family: 'Montserrat';
+    margin-top: 2rem;
+    font-size: 14px;
+    line-height: 20px;
+    color: #828282;
+}
+.see:hover {
+    cursor: pointer;
+    color: #2F80ED;
+}
+/* ARTICLE CONTAINER -END- */
+/* EXPERIENCIES CONTAINER -START- */
+.experiencesTitle {
+    font-weight: 500;
+    font-size: 24px;
+}
+.experiencesCard {
+    display: flex;
+}
+.experiencesCard img {
+    width: 84px;
+    height: 35px;
+}
+.cardInfo p {
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+.cardInfo h3 {
+    margin-bottom: 1.2rem;
+    font-weight: 600;
+    font-size: 16px;
+}
+.date {
+    margin-bottom: 0.5rem;
+}
+.experiencesCard {
+    margin-top: 2rem;
+}
+.cardInfo {
+    margin-left: 1.2rem;
+}
+/* EXPERIENCIES CONTAINER -END- */
+/* TAGS CONTAINER -START- */
+.tagsContainer h2 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #4F4F4F;
+}
+.tagsButtons button {
+    font-family: 'Montserrat';
+    padding: 5px 10px;
+    border: 1px solid #4F4F4F;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #4F4F4F;
+    cursor: pointer;
+    margin-top: 0.2rem;
+}
+.tagsButtons {
+    margin-top: 1rem;
+}
+#all {
+    background-color: #2F80ED;
+    color: #FFFFFF;
+}
+/* TAGS CONTAINER -END- */
+/* PROJECTS CONTAINER -START- */
+.projectCard {
+    width: 350px;
+}
+.projectCard img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+}
+.projectCard span {
+    font-size: 14px;
+}
+.projectCard h3 {
+    font-weight: 500;
+    font-size: 24px;
+    color: #333333;
+    margin: 1rem 0;
+}
+.projectCard p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #828282;
+    width: 280px;
+    margin-bottom: 2rem;
+}
+.cardButtons a {
+    padding: 10px 35px;
+    border-radius: 8px;   
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px; 
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn-code {
+    border: 1px solid #2F80ED;
+    color: #2F80ED;
+    margin-left: 0.3rem;
+}
+.btn-demo {
+    color: #FFFFFF;
+    border: none;
+    background-color: #2F80ED;
+}
+/* PROJECTS CONTAINER -END- */
+/* CAROUSEL CONTAINER -START- */
+.carouselButtons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+.carouselButtons button {
+    height: 30px;
+    width: 30px;
+    color: #4F4F4F;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #828282;
+    outline: none;
+    cursor: pointer;
+}
+#uno {
+    background-color: #2F80ED;
+    color: #FFFFFF;
+}
+#dos, #tres, #left, #more2, #more3, #myteampage, #interiorconsultant, #recipeblog, #mygallery, #checkoutpage, #ediehomepage {
+    display: none;
+}
+
+/* CAROUSEL CONTAINER -END- */
+/* FOOTER -START- */
+footer {
+    text-align: center;
+}
+.footer__text {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px; 
+    color: #949494;
+}
+.footer__text a {
+    color: #333333;
+    text-decoration: none;
+}
+.footer__text a:hover {
+    color: #2F80ED;
+}
+/* FOOTER -END- */
+@media screen and (min-width:768px) {
+    .container {
+        width: 1080px;
+    }
+    .projectsContainer {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+    .infoContainer {
+        display: flex;
+    }
+    .info-rightside {
+        margin-left: 2rem;
+    }
+    /* ARTICLE CONTAINER -START- */
+    .articleHead {
+        display: flex;
+    }
+    .articleHead img {
+        margin-top: 0rem;
+        width: 400px;
+    }
+    /* ARTICLE CONTAINER -END- */
+    /* EXPERIENCIES CONTAINER -START- */
+    .infoExperiences {
+        height: 46.4%;
+    }
+    .experiencesCard img {
+        width: 90px;
+        height: 45px;
+    }
+    /* EXPERIENCIES CONTAINER -END- */
+    /* USER CONTAINER -START- */
+    .userContainer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+    }
+    .userInfo {
+        margin-left: 2em;
+        margin-bottom: 2rem;
+    }
+    .user-infoUp {
+        width: 725px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    .userContainer img {
+        left: 0px;
+    }
+    .right {
+        margin: 0rem 0;
+    }
+    .user-infoDown p {
+        margin-bottom: 1rem;
+        color: #828282;
+        font-size: 16px;
+        line-height: 22px;
+        width: 500px;
+    }
+    /* USER CONTAINER -END- */
+    .elipsis {
+        display: none;
+    }
+    #dos, #tres, #myteampage, #interiorconsultant {
+        display: block;
+    }
+}
